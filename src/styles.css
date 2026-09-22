@@ -122,9 +122,5 @@ button { font: inherit; letter-spacing: 0; cursor: pointer; }
 .event-copy p { margin: 5px 0 3px; font-size: 7px; line-height: 1.05; font-weight: 800; }
 .event-copy button { height: 17px; display: flex; align-items: center; gap: 4px; padding: 0 9px; border: 0; border-radius: 9px; color: var(--primary); background: var(--primary-foreground); font-size: 7px; font-weight: 900; }
 .event-copy button svg { width: 10px; }
-.bottom-nav { position: absolute; z-index: 10; left: 0; right: 0; bottom: 0; height: 78px; display: grid; grid-template-columns: repeat(5, 1fr); align-items: center; padding: 4px 13px 8px; border-top: 1px solid var(--border); border-radius: 26px 26px 0 0; background: color-mix(in oklab, var(--card) 96%, transparent); box-shadow: 0 -4px 18px color-mix(in oklab, var(--nav-ink) 9%, transparent); backdrop-filter: blur(12px); }
-.bottom-nav button { height: 58px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border: 0; border-radius: 20px; color: var(--nav-ink); background: transparent; font-size: 10px; font-weight: 800; }
-.bottom-nav button svg { width: 22px; height: 22px; }
-.bottom-nav button.active { color: var(--primary-foreground); background: var(--primary); }
-@media (min-width: 600px) { .phone-frame { min-height: 860px; margin: 22px 0; border-radius: 30px; border: 1px solid color-mix(in oklab, var(--primary) 16%, transparent); } .bottom-nav { position: absolute; } }
+@media (min-width: 600px) { .phone-frame { min-height: 860px; margin: 22px 0; border-radius: 30px; border: 1px solid color-mix(in oklab, var(--primary) 16%, transparent); } }
 @media (max-width: 360px) { .content-area { padding-inline: 8px; } .shop-header { padding-inline: 16px; } .brand-copy h1 { font-size: 21px; } .wallet-card { min-width: 140px; } .games-grid { gap: 5px; } }
