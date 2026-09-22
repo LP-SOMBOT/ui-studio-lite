@@ -132,14 +132,6 @@ function Index() {
             </article>
           </section>
         </section>
-
-        <nav className="bottom-nav" aria-label="Main navigation">
-          {navItems.map(({ label, icon: Icon, active }) => (
-            <button type="button" key={label} className={active ? "active" : ""}>
-              <Icon aria-hidden="true" /><span>{label}</span>
-            </button>
-          ))}
-        </nav>
       </div>
     </main>
   );
