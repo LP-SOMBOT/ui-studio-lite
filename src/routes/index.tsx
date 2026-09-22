@@ -48,14 +48,6 @@ const shortcuts = [
   { label: "Support", icon: Headphones },
 ];
 
-const navItems = [
-  { label: "Home", icon: Home, active: true },
-  { label: "Top Up", icon: Gamepad2 },
-  { label: "Orders", icon: ClipboardList },
-  { label: "Events", icon: CalendarDays },
-  { label: "Profile", icon: CircleUserRound },
-];
-
 function SectionTitle({ type, children }: { type: "games" | "events"; children: React.ReactNode }) {
   return (
     <div className="section-title">
