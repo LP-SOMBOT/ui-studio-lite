@@ -6,8 +6,6 @@ import {
   CircleUserRound,
   Crown,
   Gamepad2,
-  Gift,
-  Headphones,
   ShieldCheck,
   WalletCards,
 } from "lucide-react";
@@ -36,12 +34,6 @@ const games = [
   { name: "Arena Breakout", x: "100%", y: "100%" },
 ];
 
-const shortcuts = [
-  { label: "Top Up", icon: Gamepad2 },
-  { label: "Games", icon: Gamepad2 },
-  { label: "Events", icon: Gift },
-  { label: "Support", icon: Headphones },
-];
 
 function SectionTitle({ type, children }: { type: "games" | "events"; children: React.ReactNode }) {
   return (
@@ -91,15 +83,6 @@ function Index() {
             <div className="hero-brand">PUBG<small>MOBILE</small></div>
             <div className="slider-dots"><i className="active" /><i /><i /><i /></div>
           </section>
-
-          <nav className="shortcut-panel" aria-label="Shop shortcuts">
-            {shortcuts.map(({ label, icon: Icon }, index) => (
-              <button type="button" key={label} className="shortcut-item">
-                <span><Icon aria-hidden="true" /></span><strong>{label}</strong>
-                {index < shortcuts.length - 1 && <i className="divider" />}
-              </button>
-            ))}
-          </nav>
 
           <section className="games-section">
             <SectionTitle type="games">Popular Games</SectionTitle>
