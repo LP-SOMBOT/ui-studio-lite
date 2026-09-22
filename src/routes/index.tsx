@@ -9,9 +9,7 @@ import {
   Gift,
   Headphones,
   ShieldCheck,
-  Signal,
   WalletCards,
-  Wifi,
 } from "lucide-react";
 import heroImage from "@/assets/pubg-hero.jpg";
 import eventImage from "@/assets/booyah-event.jpg";
@@ -62,10 +60,6 @@ function Index() {
     <main className="page-shell">
       <div className="phone-frame">
         <header className="shop-header">
-          <div className="status-row">
-            <time>9:41</time>
-            <div className="status-icons"><Signal /><Wifi /><span>100</span></div>
-          </div>
           <div className="brand-row">
             <div className="brand-mark" aria-label="OskarShop logo"><ShieldCheck /><Gamepad2 /></div>
             <div className="brand-copy">
