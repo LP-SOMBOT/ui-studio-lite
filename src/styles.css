@@ -64,7 +64,7 @@ button { font: inherit; letter-spacing: 0; cursor: pointer; }
 .brand-copy p { margin: 5px 0 0; font-size: 13px; font-weight: 700; }
 .profile-button { margin-left: auto; width: 48px; height: 48px; display: grid; place-items: center; border: 1px solid color-mix(in oklab, var(--primary-foreground) 70%, transparent); border-radius: 50%; background: color-mix(in oklab, var(--accent) 60%, transparent); color: var(--primary-foreground); }
 .profile-button svg { width: 31px; height: 31px; stroke-width: 2.8; }
-.content-area { padding: 0 12px 92px; }
+.content-area { padding: 0 12px 24px; }
 .welcome-row { min-height: 73px; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 3px 7px 4px 8px; }
 .welcome-row h2 { margin: 0; font-size: 18px; line-height: 1.1; font-weight: 900; }
 .welcome-row h2 span { font-size: 16px; }
