@@ -4,13 +4,10 @@ import {
   CalendarDays,
   ChevronRight,
   CircleUserRound,
-  ClipboardList,
   Crown,
   Gamepad2,
   Gift,
   Headphones,
-  Home,
-  Menu,
   ShieldCheck,
   Signal,
   WalletCards,
@@ -46,14 +43,6 @@ const shortcuts = [
   { label: "Games", icon: Gamepad2 },
   { label: "Events", icon: Gift },
   { label: "Support", icon: Headphones },
-];
-
-const navItems = [
-  { label: "Home", icon: Home, active: true },
-  { label: "Top Up", icon: Gamepad2 },
-  { label: "Orders", icon: ClipboardList },
-  { label: "Events", icon: CalendarDays },
-  { label: "Profile", icon: CircleUserRound },
 ];
 
 function SectionTitle({ type, children }: { type: "games" | "events"; children: React.ReactNode }) {
@@ -143,14 +132,6 @@ function Index() {
             </article>
           </section>
         </section>
-
-        <nav className="bottom-nav" aria-label="Main navigation">
-          {navItems.map(({ label, icon: Icon, active }) => (
-            <button type="button" key={label} className={active ? "active" : ""}>
-              <Icon aria-hidden="true" /><span>{label}</span>
-            </button>
-          ))}
-        </nav>
       </div>
     </main>
   );
