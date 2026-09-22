@@ -76,7 +76,7 @@ function Index() {
           </div>
         </header>
 
-        <section className="content-area">
+        <section className="content-area no-bottom-nav">
           <div className="welcome-row">
             <div><h2>Hello, Gamer <span>👋</span></h2><p>Top up. Play. Win.</p></div>
             <button type="button" className="wallet-card">
