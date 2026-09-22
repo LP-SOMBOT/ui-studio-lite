@@ -9,7 +9,6 @@ import {
   ShieldCheck,
   WalletCards,
 } from "lucide-react";
-import heroImage from "@/assets/pubg-hero.jpg";
 import eventImage from "@/assets/booyah-event.jpg";
 import gameCovers from "@/assets/game-covers.jpg";
 
@@ -71,18 +70,6 @@ function Index() {
               <ChevronRight aria-hidden="true" />
             </button>
           </div>
-
-          <section className="hero-banner" aria-label="PUBG Mobile UC Top Up">
-            <img src={heroImage} alt="Battle royale player arriving over an island" width={1536} height={768} />
-            <div className="hero-copy">
-              <p className="hero-kicker">FAST <i /> SAFE <i /> RELIABLE</p>
-              <h2>PUBG MOBILE<br /><span>UC TOP UP</span></h2>
-              <p className="hero-description">Get your UC in seconds<br />and enjoy the game!</p>
-              <button type="button" className="buy-button">Buy Now <ArrowRight /></button>
-            </div>
-            <div className="hero-brand">PUBG<small>MOBILE</small></div>
-            <div className="slider-dots"><i className="active" /><i /><i /><i /></div>
-          </section>
 
           <section className="games-section">
             <SectionTitle type="games">Popular Games</SectionTitle>
